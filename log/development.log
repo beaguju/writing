@@ -4,3 +4,1597 @@ Started GET "/" for 127.0.0.1 at 2014-11-17 12:18:41 +0100
 Processing by Rails::WelcomeController#index as HTML
   Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/railties-4.1.7/lib/rails/templates/rails/welcome/index.html.erb (40.0ms)
 Completed 200 OK in 176ms (Views: 174.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-17 12:57:38 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/railties-4.1.7/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2014-11-17 12:57:44 +0100
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (82.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (235.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-17 12:57:49 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 270ms
+
+ActionView::Template::Error (couldn't find file 'turbolinks'
+  (in C:/Users/GUJU/Desktop/IRONHACK/writing/app/assets/javascripts/application.js:15)):
+    3: <head>
+    4:   <title>Writing</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___578999523_43975176'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (74.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (187.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-17 12:58:19 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 396ms (Views: 395.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 12:58:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 12:58:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 12:58:19 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 12:58:19 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 12:58:19 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 12:58:20 +0100
+
+
+Started GET "/stories" for 127.0.0.1 at 2014-11-17 14:59:17 +0100
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.7) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.7) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (445.0ms)
+  [1m[36m (15.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (14.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateStories (20141117134645)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (5.0ms)[0m  CREATE TABLE "stories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "text" text, "title" varchar(255), "parent_id_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.0ms)[0m  [1mCREATE  INDEX "index_stories_on_parent_id_id" ON "stories" ("parent_id_id")[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141117134645"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.0ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_stories_on_parent_id_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_stories_on_parent_id_id' AND type='index'
+[0m
+
+
+Started GET "/stories" for 127.0.0.1 at 2014-11-17 15:00:23 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/stories"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (59.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (242.0ms)
+
+
+Started GET "/stories" for 127.0.0.1 at 2014-11-17 15:00:49 +0100
+Processing by StoriesController#index as HTML
+  Rendered stories/index.html.erb within layouts/application (45.0ms)
+Completed 500 Internal Server Error in 73ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x533baa0>:0x533b500>):
+    1: <h1>New Story</h1>
+    2: 
+    3: <%= f.label :title %>
+    4: <%= f.string :title %>
+    5: <br/>
+    6: <%= f.text_field :text %>
+  app/views/stories/index.html.erb:3:in `_app_views_stories_index_html_erb__111546858_43635852'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (79.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (217.0ms)
+
+
+Started GET "/stories" for 127.0.0.1 at 2014-11-17 15:24:35 +0100
+
+ActionController::RoutingError (No route matches [GET] "/stories"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (193.0ms)
+
+
+Started GET "/story" for 127.0.0.1 at 2014-11-17 15:24:44 +0100
+
+ActionController::RoutingError (uninitialized constant StoryController):
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.7) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (192.0ms)
+
+
+Started GET "/story" for 127.0.0.1 at 2014-11-17 15:25:12 +0100
+
+ActionController::RoutingError (uninitialized constant StoryController):
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.7) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (188.0ms)
+
+
+Started GET "/story/new" for 127.0.0.1 at 2014-11-17 15:25:19 +0100
+
+ActionController::RoutingError (uninitialized constant StoryController):
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.7) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (23.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (209.0ms)
+
+
+Started GET "/story/new" for 127.0.0.1 at 2014-11-17 15:26:29 +0100
+
+ActionController::RoutingError (uninitialized constant StoryController):
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.7) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.7) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (185.0ms)
+
+
+Started GET "/story/new" for 127.0.0.1 at 2014-11-17 15:26:41 +0100
+
+ActionController::RoutingError (No route matches [GET] "/story/new"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (174.0ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:26:48 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (110.0ms)
+Completed 500 Internal Server Error in 178ms
+
+ActionView::Template::Error (undefined method `string' for #<ActionView::Helpers::FormBuilder:0x6369318>):
+    2: 
+    3: <%= form_for @story do |f| %>
+    4: 	<%= f.label :title %>
+    5: 	<%= f.string :title %>
+    6: 	<br/>
+    7: 	<%= f.text_field :text %>
+    8: 	<br/>
+  app/views/stories/new.html.erb:5:in `block in _app_views_stories_new_html_erb___391669894_52279500'
+  app/views/stories/new.html.erb:3:in `_app_views_stories_new_html_erb___391669894_52279500'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (112.0ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:27:14 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 866ms (Views: 865.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:27:15 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:27:15 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:27:15 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:16 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:16 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:16 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:16 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:16 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 15:27:21 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"ñlajsñfk", "text"=>"añdlfjañsldfj"}, "commit"=>"Submit"}
+  Rendered stories/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 255ms (Views: 253.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:27:21 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:21 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:21 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:21 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:21 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:27:21 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 15:27:28 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"ñlajsñfk", "text"=>"añdlfjañsldfj"}, "commit"=>"Submit"}
+  Rendered stories/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 286ms (Views: 283.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:27:28 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:27:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:29 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:27:29 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:28:15 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 378ms (Views: 377.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:28:16 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:28:16 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:28:16 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:28:16 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:28:16 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:28:16 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:28:16 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:28:16 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:32:07 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (44.0ms)
+Completed 500 Internal Server Error in 69ms
+
+ActionView::Template::Error (undefined method `string_field' for #<ActionView::Helpers::FormBuilder:0x6552c30>):
+    3: <%= form_for @story do |f| %>
+    4: 	<div class="field">
+    5: 		<%= f.label :title %>
+    6: 		<%= f.string_field :title %>
+    7: 		<br/>
+    8: 		<%= f.label :text %>
+    9: 		<%= f.text_field :text %>
+  app/views/stories/new.html.erb:6:in `block in _app_views_stories_new_html_erb___391669894_53231952'
+  app/views/stories/new.html.erb:3:in `_app_views_stories_new_html_erb___391669894_53231952'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (118.0ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:32:18 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 260ms (Views: 259.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:32:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:32:18 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:32:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:32:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:32:18 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:32:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:32:18 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:32:19 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:34:29 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 308ms (Views: 285.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:34:30 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:34:30 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:34:30 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:34:30 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:34:30 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:34:30 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:34:30 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:34:30 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (156.0ms)
+Completed 200 OK in 387ms (Views: 386.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:36:11 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 15:39:04 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"Ola ke ase", "text"=>"añslkdfjñalsdjfñklasjdf"}, "commit"=>"Submit"}
+Completed 400 Bad Request in 3ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: stories):
+  app/controllers/stories_controller.rb:29:in `story_params'
+  app/controllers/stories_controller.rb:16:in `create'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (179.0ms)
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 15:44:41 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"Ola ke ase", "text"=>"añslkdfjñalsdjfñklasjdf"}, "commit"=>"Submit"}
+Completed 400 Bad Request in 20ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: stories):
+  app/controllers/stories_controller.rb:29:in `story_params'
+  app/controllers/stories_controller.rb:16:in `create'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (158.0ms)
+
+
+Started GET "/stories" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+Processing by StoriesController#index as HTML
+  Rendered stories/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 266ms (Views: 266.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:45 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:44:52 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 298ms (Views: 289.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:44:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:53 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:44:53 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:44:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:53 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:44:53 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 15:45:00 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"asdfadf", "text"=>"asdfasdfasdfasdfasdfffffffffffffffffffffffffffffffffff"}, "commit"=>"Submit"}
+Completed 400 Bad Request in 3ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: stories):
+  app/controllers/stories_controller.rb:29:in `story_params'
+  app/controllers/stories_controller.rb:16:in `create'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (193.0ms)
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 15:47:59 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"asdfadf", "text"=>"asdfasdfasdfasdfasdfffffffffffffffffffffffffffffffffff"}, "commit"=>"Submit"}
+Completed 400 Bad Request in 18ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: stories):
+  app/controllers/stories_controller.rb:29:in `story_params'
+  app/controllers/stories_controller.rb:16:in `create'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (201.0ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:48:04 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 285ms (Views: 276.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:04 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:04 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:05 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:05 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:05 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:05 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:05 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:05 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 15:48:12 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"asdfasdfasdf", "text"=>"asdfffffffffffffffffffffffffffffffffff"}, "commit"=>"Submit"}
+Completed 400 Bad Request in 8ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: stories):
+  app/controllers/stories_controller.rb:29:in `story_params'
+  app/controllers/stories_controller.rb:16:in `create'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (184.0ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 15:48:50 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 367ms (Views: 347.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:50 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:51 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:51 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:51 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:51 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:51 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 15:48:57 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"asdfasdfasdf", "text"=>"sdffffffffffffffffffffffffffffffffff"}, "commit"=>"Submit"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (10.0ms)[0m  [1mINSERT INTO "stories" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-11-17 14:48:57.290659"], ["text", "sdffffffffffffffffffffffffffffffffff"], ["title", "asdfasdfasdf"], ["updated_at", "2014-11-17 14:48:57.290659"]]
+  [1m[35m (24.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/stories/1
+Completed 302 Found in 100ms (ActiveRecord: 34.0ms)
+
+
+Started GET "/stories/1" for 127.0.0.1 at 2014-11-17 15:48:57 +0100
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered stories/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 270ms (Views: 270.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:57 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:57 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:57 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:57 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:57 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:48:58 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:48:58 +0100
+
+
+Started GET "/stories/1" for 127.0.0.1 at 2014-11-17 15:49:08 +0100
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered stories/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 258ms (Views: 255.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 15:49:08 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 15:49:08 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 15:49:08 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 15:49:08 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 15:49:08 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 15:49:09 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 15:49:09 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 15:49:09 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 16:00:27 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 188ms (Views: 173.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:28 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:28 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:28 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:28 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:28 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:28 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 16:00:34 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"asdfasdfasdf", "text"=>"sdfffffffffffffffffffffffffffffffffffffff"}, "commit"=>"Submit"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "stories" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-11-17 15:00:34.598543"], ["text", "sdfffffffffffffffffffffffffffffffffffffff"], ["title", "asdfasdfasdf"], ["updated_at", "2014-11-17 15:00:34.598543"]]
+  [1m[36m (15.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/stories/2
+Completed 302 Found in 35ms (ActiveRecord: 20.0ms)
+
+
+Started GET "/stories/2" for 127.0.0.1 at 2014-11-17 16:00:34 +0100
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mStory Load (2.0ms)[0m  SELECT  "stories".* FROM "stories"  WHERE "stories"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered stories/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 176ms (Views: 168.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:34 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:34 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:35 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:35 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:35 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:35 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:35 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:35 +0100
+
+
+Started GET "/stories/2" for 127.0.0.1 at 2014-11-17 16:00:48 +0100
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mStory Load (0.0ms)[0m  [1mSELECT  "stories".* FROM "stories"  WHERE "stories"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered stories/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 162ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:48 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:49 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:49 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:49 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 16:00:49 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:49 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:49 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 16:00:49 +0100
+
+
+Started GET "/stories/2" for 127.0.0.1 at 2014-11-17 16:01:07 +0100
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mStory Load (1.0ms)[0m  SELECT  "stories".* FROM "stories"  WHERE "stories"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered stories/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 236ms (Views: 232.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 16:01:08 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 16:01:08 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 16:01:08 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 16:01:08 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 16:01:08 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 16:01:08 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 16:01:08 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 16:01:08 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.0ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_stories_on_parent_id_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_stories_on_parent_id_id' AND type='index'
+[0m
+  [1m[36m (67.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (18.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateStories (20141117134645)
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (6.0ms)[0m  CREATE TABLE "stories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "text" text, "title" varchar(255), "parent_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.0ms)[0m  [1mCREATE  INDEX "index_stories_on_parent_id" ON "stories" ("parent_id")[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141117134645"]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.0ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_stories_on_parent_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_stories_on_parent_id' AND type='index'
+[0m
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "stories" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-11-17 15:26:03.569995"], ["text", "A long, long time ago, in a galaxy far, far away"], ["title", "First story"], ["updated_at", "2014-11-17 15:26:03.569995"]]
+  [1m[36m (58.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "stories"
+  [1m[36mStory Load (0.0ms)[0m  [1mSELECT  "stories".* FROM "stories"   ORDER BY "stories"."id" ASC LIMIT 1[0m
+  [1m[35mStory Load (1.0ms)[0m  SELECT "stories".* FROM "stories"  WHERE "stories"."parent_id" = ?  [["parent_id", 1]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.0ms)[0m  INSERT INTO "stories" ("created_at", "parent_id", "text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-11-17 15:26:38.408988"], ["parent_id", 1], ["text", "Luke Skywalker died. The end."], ["updated_at", "2014-11-17 15:26:38.408988"]]
+  [1m[36m (61.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "stories"
+  [1m[36mStory Load (1.0ms)[0m  [1mSELECT  "stories".* FROM "stories"   ORDER BY "stories"."id" DESC LIMIT 1[0m
+  [1m[35mStory Load (2.0ms)[0m  SELECT  "stories".* FROM "stories"  WHERE "stories"."story_id" = ? LIMIT 1  [[nil, 2]]
+SQLite3::SQLException: no such column: stories.story_id: SELECT  "stories".* FROM "stories"  WHERE "stories"."story_id" = ? LIMIT 1
+  [1m[36mStory Load (1.0ms)[0m  [1mSELECT  "stories".* FROM "stories"   ORDER BY "stories"."id" DESC LIMIT 1[0m
+  [1m[35mStory Load (1.0ms)[0m  SELECT  "stories".* FROM "stories"  WHERE "stories"."story_id" = ? LIMIT 1  [[nil, 2]]
+SQLite3::SQLException: no such column: stories.story_id: SELECT  "stories".* FROM "stories"  WHERE "stories"."story_id" = ? LIMIT 1
+  [1m[36mStory Load (1.0ms)[0m  [1mSELECT  "stories".* FROM "stories"   ORDER BY "stories"."id" DESC LIMIT 1[0m
+  [1m[35mStory Load (1.0ms)[0m  SELECT  "stories".* FROM "stories"  WHERE "stories"."id" = ? LIMIT 1  [["id", 1]]
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 17:27:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (247.0ms)
+Completed 200 OK in 971ms (Views: 863.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 17:27:44 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:27:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 17:27:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:27:45 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 17:27:45 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:27:45 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 17:27:45 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 17:27:45 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 17:34:18 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 227ms (Views: 204.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:18 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:18 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:18 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:19 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"", "text"=>"asdfasdfasdf"}, "commit"=>"Submit"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  Rendered stories/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 259ms (Views: 202.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:27 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"asdfasdfasdfasdf", "text"=>"asdfasdfasdffasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"}, "commit"=>"Submit"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (2.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered stories/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 299ms (Views: 268.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 17:34:43 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 17:34:56 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"asdfasdfasdfasdf", "text"=>"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"}, "commit"=>"Submit"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (6.0ms)[0m  [1mINSERT INTO "stories" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-11-17 16:34:56.576390"], ["text", "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"], ["title", "asdfasdfasdfasdf"], ["updated_at", "2014-11-17 16:34:56.576390"]]
+  [1m[35m (16.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/stories/3
+Completed 302 Found in 64ms (ActiveRecord: 22.0ms)
+
+
+Started GET "/stories/3" for 127.0.0.1 at 2014-11-17 17:34:56 +0100
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mStory Load (1.0ms)[0m  [1mSELECT  "stories".* FROM "stories"  WHERE "stories"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered stories/show.html.erb within layouts/application (44.0ms)
+Completed 500 Internal Server Error in 76ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x663dd28>:0x63a92f0>):
+    11: </div>
+    12: 
+    13: <div class="button">
+    14: 	<%= f.submit "Continuar historia" %>
+    15: </div>
+    16: 
+    17: <div class="hiddenForm">
+  app/views/stories/show.html.erb:14:in `_app_views_stories_show_html_erb__682252792_52249320'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:35:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 17:35:54 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 17:35:54 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 17:35:54 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:35:54 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:35:54 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 17:35:54 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 17:35:54 +0100
+
+
+Started GET "/stories" for 127.0.0.1 at 2014-11-17 17:48:38 +0100
+Processing by StoriesController#index as HTML
+  Rendered stories/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 641ms (Views: 634.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:48:39 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 17:48:39 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:48:39 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 17:48:39 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:48:39 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 17:48:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 17:48:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 17:48:39 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 17:48:46 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/_form.html.erb (54.0ms)
+  Rendered stories/new.html.erb within layouts/application (194.0ms)
+Completed 500 Internal Server Error in 275ms
+
+ActionView::Template::Error (undefined method `resource' for #<ActionView::Helpers::FormBuilder:0x3c7f4e8>):
+    1: <div class="field">
+    2: 	<% if form.resource.new_record? %>
+    3: 	<%= form.label :title %>
+    4: 	<%= form.text_field :title %>
+    5: 	<br/>
+  app/views/stories/_form.html.erb:2:in `_app_views_stories__form_html_erb__946517878_31410336'
+  app/views/stories/new.html.erb:8:in `block in _app_views_stories_new_html_erb___496573312_32194320'
+  app/views/stories/new.html.erb:7:in `_app_views_stories_new_html_erb___496573312_32194320'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (29.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (307.0ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 17:51:31 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/_form.html.erb (143.0ms)
+  Rendered stories/new.html.erb within layouts/application (173.0ms)
+Completed 500 Internal Server Error in 208ms
+
+ActionView::Template::Error (undefined method `is_root?' for #<#<Class:0x502a400>:0x68e0ff8>):
+    1: <div class="field">
+    2: 	<% if is_root? %>
+    3: 	<%= form.label :title %>
+    4: 	<%= form.text_field :title %>
+    5: 	<br/>
+  app/views/stories/_form.html.erb:2:in `_app_views_stories__form_html_erb__946517878_54900960'
+  app/views/stories/new.html.erb:8:in `block in _app_views_stories_new_html_erb___496573312_54984996'
+  app/views/stories/new.html.erb:7:in `_app_views_stories_new_html_erb___496573312_54984996'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (152.0ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-17 17:51:45 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/_form.html.erb (7.0ms)
+  Rendered stories/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 289ms (Views: 288.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:51:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 17:51:46 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:51:46 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:51:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 17:51:46 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 17:51:46 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 17:51:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 17:51:46 +0100
+
+
+Started POST "/stories" for 127.0.0.1 at 2014-11-17 17:52:00 +0100
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OBkIWkrob8RQsMzsnne89Lf8uZfdmda1ZE2wQHDz4/0=", "story"=>{"title"=>"hola", "text"=>"hola hola,, ra ta rá ta rá"}, "commit"=>"Submit"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "stories" ("created_at", "text", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-11-17 16:52:00.307944"], ["text", "hola hola,, ra ta rá ta rá"], ["title", "hola"], ["updated_at", "2014-11-17 16:52:00.307944"]]
+  [1m[35m (14.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/stories/4
+Completed 302 Found in 70ms (ActiveRecord: 19.0ms)
+
+
+Started GET "/stories/4" for 127.0.0.1 at 2014-11-17 17:52:00 +0100
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mStory Load (1.0ms)[0m  [1mSELECT  "stories".* FROM "stories"  WHERE "stories"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered stories/show.html.erb within layouts/application (42.0ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x502a400>:0x50bbeb8>):
+    11: </div>
+    12: 
+    13: <div class="button">
+    14: 	<%= f.submit "Continuar historia" %>
+    15: </div>
+    16: 
+    17: <div class="hidden">
+  app/views/stories/show.html.erb:14:in `_app_views_stories_show_html_erb__682252792_42325932'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.0ms)
+
+
+Started GET "/stories/4" for 127.0.0.1 at 2014-11-17 17:52:31 +0100
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mStory Load (6.0ms)[0m  SELECT  "stories".* FROM "stories"  WHERE "stories"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered stories/_form.html.erb (3.0ms)
+  Rendered stories/show.html.erb within layouts/application (119.0ms)
+Completed 200 OK in 431ms (Views: 400.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:52:32 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:52:32 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:52:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-17 17:52:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-17 17:52:32 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-17 17:52:32 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-17 17:52:32 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-17 17:52:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-17 17:52:42 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-17 17:52:42 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-17 17:52:42 +0100

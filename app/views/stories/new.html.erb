@@ -1,0 +1,10 @@
+<h1>Create a new story</h1>
+
+<% if flash[:error] %>
+	<%= flash[:error] %>
+<% end %>
+
+<%= form_for @story do |f| %>
+	<%= render partial: 'form', locals: {form: f, is_root: true} %>
+<% end %>
+

@@ -1,0 +1,12 @@
+<div class="field">
+	<% if is_root %>
+		<%= form.label :title %>
+		<%= form.text_field :title %>
+	<br>
+	<% end %>
+	<%= form.label :text %>
+	<%= form.text_area :text %>
+</div>
+<div class="button">
+	<%= form.submit "Submit" %>
+</div>

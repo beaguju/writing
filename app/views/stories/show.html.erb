@@ -1,0 +1,23 @@
+<h1>Stories Show</h1>
+
+<div class="field">
+	<ul>
+		<li>
+			<b><%= @story.title %></b>
+			<br/>
+			<%= @story.text %>
+		</li>
+	</ul>
+</div>
+
+<div class="button">
+	Continuar historia
+</div>
+
+<div class="hidden">
+	<%= form_for @story.children.build do |f| %>
+		<%= f.hidden_field :parent_id %>
+		<%= render partial: 'form', locals: { form: f, is_root: false } %>
+	<% end %>
+</div>
+
