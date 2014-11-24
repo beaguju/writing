@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
   resources :stories
+    member do
+      get 'new'
+    end
+
 
   get 'home' => 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.

@@ -3,3 +3,12 @@
 <% if flash[:notice] %>
 <%= flash[:notice] %>
 <% end %>
+
+<% @story.each do |story| %>
+	<ul>
+		<li><%= link_to "#{story.title}", story_path(@story, story) %></li>
+		<li><%= story.text %></li>
+	</ul>
+<% end %>
+
+<%= link_to "Create new Story", new_story_path(@story) %>
