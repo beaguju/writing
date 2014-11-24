@@ -6,9 +6,4 @@ class UsersController < ApplicationController
 		render 'users/show'
 	end
 
-	def create
-		super do |resource|
-			puts "#{resource.name}"
-		end
-	end
 end

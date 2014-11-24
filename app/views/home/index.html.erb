@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
-</html>
+<% if user_signed_in? %>
+	<%= link_to (submit_tag "Mi Area", class: "boton3"), new_story_path %>
+	<%= link_to (submit_tag "Salir", class: "boton2"), destroy_user_session_path, method: :delete %>
+<% else %>
+	<%= link_to (submit_tag "Identifícate", class: "boton"), new_user_session_path %>
+	<%= link_to (submit_tag "Regístrate", class: "boton1"), new_user_registration_path %>
+<% end %>
+
