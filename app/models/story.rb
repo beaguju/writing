@@ -1,4 +1,5 @@
 class Story < ActiveRecord::Base
+	belongs_to :users
   belongs_to :parent, class_name: 'Story'
   has_many :children, class_name: 'Story', foreign_key: 'parent_id'
 
