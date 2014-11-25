@@ -10912,3 +10912,728 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:07:59 +0100
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:07:59 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 265ms (Views: 254.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:36 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:10:45 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 223ms (Views: 211.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:46 +0100
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-25 17:10:48 +0100
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 216ms (Views: 214.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:49 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 246ms (Views: 231.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:10:52 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:12:18 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 235ms (Views: 222.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:19 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 331ms (Views: 303.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:27 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:12:32 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 216ms (Views: 204.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:32 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:32 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:32 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:32 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:33 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:33 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:33 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-25 17:12:37 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/_form.html.erb (3.0ms)
+  Rendered stories/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 262ms (Views: 239.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:37 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:37 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:37 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:37 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:37 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:37 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:37 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:38 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:38 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/_form.html.erb (3.0ms)
+  Rendered stories/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 236ms (Views: 235.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:12:44 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-25 17:14:28 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/_form.html.erb (3.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered stories/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 220ms (Views: 219.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:29 +0100
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+Processing by StoriesController#new as HTML
+  Rendered stories/_form.html.erb (2.0ms)
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered stories/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 255ms (Views: 251.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:44 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 239ms (Views: 228.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:14:46 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 291ms (Views: 265.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:45 +0100
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-25 17:46:47 +0100
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 229ms (Views: 228.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:48 +0100
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-25 17:46:55 +0100
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 238ms (Views: 237.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:55 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:55 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:56 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:56 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:56 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:56 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:56 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:56 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:46:57 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 219ms (Views: 209.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:57 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:57 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:57 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:58 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:58 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:58 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:58 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:58 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:58 +0100
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 237ms (Views: 234.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:03 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 287ms (Views: 272.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:47:06 +0100
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-25 17:48:01 +0100
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 465ms (Views: 461.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:48:02 +0100

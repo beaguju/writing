@@ -8,3 +8,5 @@
 	<%= render partial: 'form', locals: {form: f, is_root: true } %>
 <% end %>
 
+<%= link_to 'Back to your Area', user_path(current_user.id) %>
+

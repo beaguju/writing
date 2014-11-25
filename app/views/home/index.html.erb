@@ -1,9 +1,9 @@
 <% if user_signed_in? %>
   <h2>¡Hola <%= current_user.name %>!</h2>
-	<%= link_to (submit_tag "Mi Area", class: "boton3"), user_path(current_user.id) %>
-	<%= link_to (submit_tag "Salir", class: "boton2"), destroy_user_session_path, method: :delete %>
+	<%= link_to (submit_tag "Mi Area", class: "button"), user_path(current_user.id) %>
+	<%= link_to (submit_tag "Salir", class: "button"), destroy_user_session_path, method: :delete %>
 <% else %>
-	<%= link_to (submit_tag "Identifícate", class: "boton"), new_user_session_path %>
-	<%= link_to (submit_tag "Regístrate", class: "boton1"), new_user_registration_path %>
+	<%= link_to (submit_tag "Identifícate", class: "button"), new_user_session_path %>
+	<%= link_to (submit_tag "Regístrate", class: "button"), new_user_registration_path %>
 <% end %>
 
