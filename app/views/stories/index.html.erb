@@ -4,9 +4,9 @@
 <%= flash[:notice] %>
 <% end %>
 
-<% @story.each do |story| %>
+<% @stories.each do |story| %>
 	<ul>
-		<li><%= link_to "#{story.title}", story_path(@story, story) %></li>
+		<li><%= link_to "#{story.title}", story %></li>
 		<li><%= story.text %></li>
 	</ul>
 <% end %>

@@ -1,9 +1,15 @@
-<h1>Stories Show</h1>
+<h1><%= @story.title %></h1>
 
 <div class="field">
 	<ul>
 		<li>
-			<b><%= @story.title %></b> /
+			<% @story.parents.each do |story| %>
+				<%= story.title %>
+				<br>
+				<%= story.text %>
+				<% end %>
+		</li>
+		<li>
 			<%= @story.text %>
 		</li>
 	</ul>
@@ -14,9 +20,12 @@
 </div>
 
 <div class="hidden">
-	<%= form_for @story.children.build do |f| %>
+	<%= form_for @story.children.build, url: add_continuation_story_path(@story) do |f| %>
 		<%= f.hidden_field :parent_id %>
 		<%= render partial: 'form', locals: { form: f, is_root: false } %>
 	<% end %>
 </div>
+<% if policy(@story).update? %>
+  <%= link_to "Edit story", edit_story_path(@story) %>
+<% end %>
 
