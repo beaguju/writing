@@ -2,3 +2,59 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+@import url(http://fonts.googleapis.com/css?family=Raleway:700);
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+
+
+* {
+	list-style: none;
+}
+
+html {
+	background: url("typewriter_wallpaper_1900x1200.jpg") no-repeat center center fixed;
+	background-size: 100% 125%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button {
+	display: inline-block;
+	height: 40px;
+	width: 120px;
+	background-color: #f7cbb2;
+	opacity: 0.7;
+	border: 2px solid #e8b99f;
+	margin: 30px;
+	padding: 20px 20px 10px 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-style: bold;
+	text-align: center;
+	color: white;
+	font-family: "Raleway" cursive;
+
+
+}
+
+.button:hover {
+	font-size: 23px;
+	font-weight: bold;
+	color: #e8b99f;
+	background-color: white;
+}
+
+.buttonbox {
+	height: 500px;
+	width: 50%;
+	margin-left: 75px;
+	margin-top: 100px;
+	font-family: "Architects Daughter";
+	color: grey;
+	font-size: 48px;
+}
+
+
+

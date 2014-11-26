@@ -1,9 +1,25 @@
-<% if user_signed_in? %>
-  <h2>¡Hola <%= current_user.name %>!</h2>
-	<%= link_to (submit_tag "Mi Area", class: "button"), user_path(current_user.id) %>
-	<%= link_to (submit_tag "Salir", class: "button"), destroy_user_session_path, method: :delete %>
-<% else %>
-	<%= link_to (submit_tag "Identifícate", class: "button"), new_user_session_path %>
-	<%= link_to (submit_tag "Regístrate", class: "button"), new_user_registration_path %>
-<% end %>
+<section class="backgroundhome">
+	
+	<% if user_signed_in? %>
+	
+		<h2>¡Hola, <%= current_user.name %>!</h2>
 
+	<div class="buttonbox">
+
+		<%= link_to "Mi Area", user_path(current_user.id), :class => "button" %>
+		<%= link_to "Salir", destroy_user_session_path, :class => "button", method: :delete %>
+	</div>
+	
+	<% else %>
+	
+	<div class="buttonbox">
+
+		<h1>4write</h1>
+
+		<%= link_to "Identifícate", new_user_session_path, :class => "button" %>
+		<%= link_to "Regístrate", new_user_registration_path, :class => "button" %>
+	</div>
+	
+	<% end %>
+
+</section>
