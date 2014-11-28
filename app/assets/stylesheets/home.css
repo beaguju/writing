@@ -4,57 +4,156 @@
 */
 @import url(http://fonts.googleapis.com/css?family=Raleway:700);
 @import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:300);
 
 
 * {
 	list-style: none;
 }
 
-html {
-	background: url("typewriter_wallpaper_1900x1200.jpg") no-repeat center center fixed;
-	background-size: 100% 125%;
-}
-
 a {
 	text-decoration: none;
 }
 
-.button {
-	display: inline-block;
-	height: 40px;
-	width: 120px;
-	background-color: #f7cbb2;
-	opacity: 0.7;
-	border: 2px solid #e8b99f;
-	margin: 30px;
-	padding: 20px 20px 10px 20px;
-	font-size: 20px;
-	border-radius: 20px;
+h3 {
+	font-family: 'Comfortaa' cursive;
 	font-weight: bold;
-	font-style: bold;
-	text-align: center;
+	font-size: 16pt;
 	color: white;
-	font-family: "Raleway" cursive;
-
-
 }
 
-.button:hover {
-	font-size: 23px;
+.actions {
+	width: 30%;
+	margin-left: 7%;
+	margin-top: 4%;
+	margin-bottom: 10%;
+	padding: 2% 2% 2% 3%;
+	background-color: white;
+	font-family: "Comfortaa" cursive;
+	font-size: 15pt;
+	line-height: 150%;
+}
+
+.actions a {
+	font-family: 'Comfortaa';
+	font-size: 15pt;
+	text-decoration: none;
+	color: grey;
+}
+
+.actions a:visited {
+	color: #fcb787;
+}
+
+
+.salir {
+	font-family: 'Comfortaa' cursive;
+	font-size: 18pt;
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+}
+
+.salir:visited {
+	color: #fcb787;
+}
+
+h1 {
+	text-shadow: 0.08em 0.08em #bdbdbc;
+	font-family: "Special Elite";
+	color: grey;
+	font-size: 85px;
+}
+
+p {
+	font-family: "Comfortaa";
+	color: grey;
+	font-size: 24px;
+}
+
+.background {
+	background: url("typewriter_wallpaper_1900x1200_sat.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.background h2 {
+	font-family: "Special Elite";
+	font-size: 28pt;
+	color: #adadad;
+}
+
+.backgroundhome {
+	background: url("typewriter_wallpaper_1900x1200_sat.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.backgroundhome h2 {
+	font-family: "Special Elite";
+	font-size: 28pt;
+	color: #adadad;
+	margin: 20px 0;
+}
+
+.socialmedia {
+	margin-left: 78%;
+	margin-top: 20px;
+}
+
+.icon {
+	height: 45px;
+	width: 45px;
+	margin: 3px;
+}
+
+
+.buttonhome {
+	display: inline-block;
+	width: 14%;
+	background-color: #fcb787;
+	border: 2px solid #e8b99f;
+	padding: 2%;
+	margin: 2%;
+	font-size: 25pt;
+	border-radius: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	opacity: 0.9;
+	font-family: "Special Elite" cursive;
+	text-shadow: 0.01em 0.01em #bdbdbc;
+}
+
+.buttonhome:hover {
 	font-weight: bold;
 	color: #e8b99f;
 	background-color: white;
+	font-size: 28pt;
 }
 
-.buttonbox {
-	height: 500px;
+.reg {
+	margin-left: 8%;
+	margin-top: 50px;
+}
+
+.reg p {
+	margin-top: 90px;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+
+.about {
 	width: 50%;
-	margin-left: 75px;
-	margin-top: 100px;
-	font-family: "Architects Daughter";
-	color: grey;
-	font-size: 48px;
+	background-color: white;
+	opacity: 0.7;
+	margin-left: 5%;
+	margin-top: 50px;
+	padding: 20px;
 }
 
+.about p {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
 
 

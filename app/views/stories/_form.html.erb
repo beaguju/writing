@@ -1,12 +1,12 @@
-<div class="field">
+<div class="forms">
 	<% if is_root %>
 		<%= form.label :title %>
-		<%= form.text_field :title %>
+		<%= form.text_field :title, class: "claseinput" %>
 	<br>
 	<% end %>
 	<%= form.label :text %>
-	<%= form.text_area :text %>
+	<%= form.text_area :text, class: "claseinput2" %>
 </div>
-<div class="button">
+<div>
 	<%= form.submit "Submit" %>
 </div>

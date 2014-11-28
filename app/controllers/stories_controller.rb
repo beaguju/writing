@@ -1,6 +1,6 @@
 class StoriesController < ApplicationController
   def index
-    @stories = Story.root.last_created
+    @stories = Story.root
   end
 
   def show

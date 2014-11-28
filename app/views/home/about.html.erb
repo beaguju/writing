@@ -1,0 +1,39 @@
+<body class="background">
+
+<nav class="nav">
+	<ul>
+		<li class="elemnav1">
+			<h2>Snippets.</h2>
+		</li>
+		<% if user_signed_in? %>
+
+			<li class="elemnav2 buttonsession">
+				<%= link_to "About Snippets", about_path, :class => "button" %>
+				<%= link_to "#{current_user.name}'s pad", user_path(current_user.id), :class => "button" %>
+				<%= link_to "Sign out", destroy_user_session_path, :class => "button", method: :delete %>
+			</li>
+		<% else %>
+		
+			<li class="elemnav2 buttonsession">
+				<%= link_to "About Snippets", about_path %>
+				<%= link_to "Sign in", new_user_session_path, :class => "button" %>
+				<%= link_to "Sign up", new_user_registration_path, :class => "button" %>
+			</li>
+		
+		<% end %>
+
+			
+	</ul>	
+
+</nav>
+
+	<div class="about">
+		<h2>¿Qué es Snippets?</h2>
+
+		<p>Snippets es un lugar donde puedes dejar volar tu imaginación y crear cualquier historia que te venga a la mente, y después compartirla con otros escritores que podrán continuar tu historia o simplemente disfrutar de su lectura.</p>
+		<p>Al igual que los demás pueden crear nuevos hilos de tu historia, tú también podrás continuar historias de otros usuarios y colaborar así en un sinfín de posibles hilos argumentales.</p>
+
+		<%= link_to "Go to Stories >>", stories_path, :class => "buttonsession" %>
+
+	</div>
+</body>

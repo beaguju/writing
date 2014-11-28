@@ -4,7 +4,7 @@ class Story < ActiveRecord::Base
   has_many :children, class_name: 'Story', foreign_key: 'parent_id'
 
   validates :title, presence: true, if: :root?
-  validates :text, length:{maximum: 250}, presence: true
+  validates :text, presence: true
 
   scope :root, -> { where parent: nil }
 

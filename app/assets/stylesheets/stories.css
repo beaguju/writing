@@ -2,3 +2,248 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+.bgstory {
+	background: url('typewriter2.jpg') no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+.bgstory h1 {
+	color: #ffffff;
+}
+
+
+.bgstory h2 {
+	font-family: "Special Elite";
+	font-size: 28pt;
+	color: #adadad;
+}
+
+.newstory h3 {
+	margin: 30px;
+	font-family: "Special Elite";
+	font-size: 40pt;
+	color: white;
+	text-align: center;
+	text-shadow: 0.1em 0.1em #adadad;
+}
+
+.formstory {
+	margin-left: 35%;
+	margin-top: 4%;
+	margin-bottom: 10%;
+	margin-right: 5%;
+	padding: 2% 2% 2% 3%;
+	font-family: "Comfortaa" cursive;
+	font-size: 15pt;
+	line-height: 150%;
+	background-color: white;
+	opacity: 0.9;
+
+}
+
+.formstory a {
+	font-family: 'Comfortaa';
+	font-size: 15pt;
+	text-decoration: none;
+	color: grey;
+}
+
+.formstory a:visited {
+	color: #fcb787;
+}
+
+.formstory input[type=submit] {
+	height: 40px;
+	width: 100px;
+	margin: 5px;
+	font-size: 14pt;
+	background-color: #bdbdbc;
+	border: 1px solid grey;
+}
+
+.formstory input[type=submit]:hover {
+	background-color: #fcb787;
+	opacity: 0.7;
+	font-size: 16pt;
+}
+
+.claseinput {
+	height: 40px;
+	width: 470px;
+	font-size: 14pt;
+	margin: 10px;
+}
+
+.claseinput2 {
+	height: 180px;
+	width: 470px;
+	font-size: 14pt;
+}
+
+.forms {
+	width: 600px;
+	padding: 20px;
+}
+
+.storiestitle {
+	padding: 10px;
+	margin: 3% 6%;
+	text-align: center;
+	background-color: white;
+	opacity: 0.7;
+}
+
+.storybox {
+	margin: 20px 40px;
+	padding: 20px;
+	min-height: 150px;
+	max-height: 300px;
+	height: auto|length|initial|inherit;	
+	width: 450px;
+	background-color: white;
+	opacity: 0.9;
+	font-family: 'Comfortaa';
+	font-size: 15pt;
+	line-height: 20pt;
+	text-align: left;
+}
+
+.buttonsession {
+	font-family: 'Comfortaa';
+	font-size: 14pt;
+	color: #fcb787;
+}
+
+.buttonsession a {
+	color: #fcb787;
+	margin: 10px;
+}
+
+.buttonsession a:visited {
+	color: #fcb787;
+}
+
+.nav {
+	display: block;
+	position: fixed top;
+	background-color: white;
+	height: 40px;
+	padding: 15px;
+}
+
+.elemnav1 {
+	float: left;
+}
+
+.elemnav2 {
+	float: right;
+	margin-top: 10px;
+}
+
+.nav a {
+	color: grey;
+	font-family: 'Comfortaa';
+	font-size: 14pt;
+}
+.nav a:hover {
+	color: white;
+}
+
+.nav a:visited {
+	color: #fcb787;
+}
+
+.nav h2 {
+	text-shadow: 0.1em 0.1em #bdbdbc;
+}
+
+.newstory {
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+}
+
+.newstory h2 {
+	color: white;
+	text-shadow: 0.1em 0.1em #bdbdbc;
+	font-family: 'Special Elite';
+	font-size: 48pt;
+	padding: 40px;
+	text-align: left;
+}
+
+.newstory a {
+	font-family: 'Comfortaa';
+	font-size: 14pt;
+	color: #fcb787;
+}
+
+.storyboxshow {
+	height: auto|length|initial|inherit;
+	margin: 30px 200px;
+	padding: 40px;
+	width: 60%;
+	background-color: white;
+	opacity: 0.9;
+	font-family: 'Comfortaa';
+	font-size: 15pt;
+	line-height: 16pt;
+	text-align: left;
+}
+
+.buttonstory {
+	position: baseline;
+	text-align: center;
+	width: 200px;
+	margin: 20px;
+	padding: 15px;
+	font-size: 14pt;
+	background-color: #bdbdbc;
+	border: 1px solid grey;
+	font-family: 'Comfortaa';
+}
+
+.buttonstory:hover {
+	background-color: #fcb787;
+	opacity: 0.7;
+	font-size: 16pt;
+}
+
+.formstoryadd {
+	margin: 30px 200px;
+	padding: 2% 2% 2% 3%;
+	font-family: "Comfortaa" cursive;
+	font-size: 15pt;
+	line-height: 150%;
+	background-color: white;
+	opacity: 0.9;
+
+}
+
+.formstoryadd a {
+	font-family: 'Comfortaa';
+	font-size: 15pt;
+	text-decoration: none;
+	color: grey;
+}
+
+.formstoryadd a:visited {
+	color: #fcb787;
+}
+
+.formstoryadd input[type=submit] {
+	height: 40px;
+	width: 100px;
+	margin: 5px;
+	font-size: 14pt;
+	background-color: #bdbdbc;
+	border: 1px solid grey;
+}
+
+.formstoryadd input[type=submit]:hover {
+	background-color: #fcb787;
+	opacity: 0.7;
+	font-size: 16pt;
+}
+
+

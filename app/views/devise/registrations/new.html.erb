@@ -1,3 +1,7 @@
+<body class="backgroundhome">
+
+<div class="form">
+
 <h2>Sign up</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -5,35 +9,40 @@
 
   <div class="field">
     <%= f.label :name %><br />
-    <%= f.text_field :name, autofocus: true %>
+    <%= f.text_field :name, class: 'claseinut', autofocus: true %>
   </div>
 
   <div class="field">
     <%= f.label :surname %><br />
-    <%= f.text_field :surname, autofocus: true %>
+    <%= f.text_field :surname, class: 'claseinut', autofocus: true %>
   </div>
 
   <div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true %>
+    <%= f.email_field :email, class: 'claseinut', autofocus: true %>
   </div>
 
   <div class="field">
     <%= f.label :password %>
     <% if @validatable %>
-    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <em class="characters">(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
-    <%= f.password_field :password, autocomplete: "off" %>
+    <%= f.password_field :password, class: 'claseinut', autocomplete: "off" %>
   </div>
 
   <div class="field">
     <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off" %>
+    <%= f.password_field :password_confirmation, class: 'claseinut', autocomplete: "off" %>
   </div>
 
-  <div class="actions">
-    <%= f.submit "Sign up" %>
+  <div>
+    <%= f.submit "Sign up", class: 'actions' %>
   </div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+<%= link_to "Back Home", home_path %>
+
+</div>
+
+</body>

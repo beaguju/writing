@@ -1,14 +1,51 @@
-<h1>Stories Index</h1>
+<body class="background">
 
-<% if flash[:notice] %>
-<%= flash[:notice] %>
-<% end %>
+<nav class="nav">
+	<ul>
+		<li class="elemnav1">
+			<h2>Snippets.</h2>
+		</li>
+		<% if user_signed_in? %>
+
+		<li class="elemnav2 buttonsession">
+			<%= link_to "About Snippets", about_path %>
+			<%= link_to "#{current_user.name}'s pad", user_path(current_user.id) %>
+			<%= link_to "Sign out", destroy_user_session_path, class: 'salir', method: :delete %>
+		</li>
+		
+		<% else %>
+		
+		<li class="elemnav2 buttonsession">
+			<%= link_to "About Snippets", about_path %>
+			<%= link_to "Sign in", new_user_session_path, :class => "button" %>
+			<%= link_to "Sign up", new_user_registration_path, :class => "button" %>
+		</li>
+		
+		<% end %>
+
+	
+	</ul>	
+
+</nav>
+
+<section>
+
+<div class="storiestitle">
+	<p>¿A qué estás esperando? ¡Crea tu propia <%= link_to "historia", new_story_path %>! </p>
+</div>
 
 <% @stories.each do |story| %>
-	<ul>
-		<li><%= link_to "#{story.title}", story %></li>
-		<li><%= story.text %></li>
-	</ul>
+	<div class="storybox">
+		<ul>
+			<li><%= link_to "#{story.title}", story, class: "salir" %></li>
+			<li><%= story.text %></li>
+			<br>
+			<li><%= link_to "Read more", story %></li>
+		</ul>
+
+	</div>
 <% end %>
 
-<%= link_to "Create new Story", new_story_path(@story) %>
+</section>
+
+</body>

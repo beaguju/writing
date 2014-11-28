@@ -1,25 +1,22 @@
-<section class="backgroundhome">
-	
-	<% if user_signed_in? %>
-	
-		<h2>¡Hola, <%= current_user.name %>!</h2>
+<body class="backgroundhome">
+	<header>
+		<div class="socialmedia">
+			<a href="http://www.twitter.com/beaguju"><%= image_tag "twitterb.png", :class => "icon" %></a>
+			<a href="https://www.facebook.com/GuJuLi"><%= image_tag "facebookb.png", :class => "icon" %></a>
+			<a href="http://es.linkedin.com/pub/beatriz-gujuli-murillo/19/615/974/"><%= image_tag "linkedinb.png", :class => "icon" %></a>
+			<a href="https://www.google.com/+BeatrizGujuliMurillo"><%= image_tag "googleb.png", :class => "icon" %></a>
+			<a href="https://wordpress.com"><%= image_tag "mailb.png", :class => "icon" %></a>
+		</div>
+	</header>
+<section>
+	<div class="reg">
 
-	<div class="buttonbox">
+		<h1>Snippets.</h1>
 
-		<%= link_to "Mi Area", user_path(current_user.id), :class => "button" %>
-		<%= link_to "Salir", destroy_user_session_path, :class => "button", method: :delete %>
+		<p>Escribe una historia <br>o ayuda a continuar su historia a otro escritor</p>
+	
+		<%= link_to "Entra", stories_path, :class => "buttonhome" %>
+
 	</div>
-	
-	<% else %>
-	
-	<div class="buttonbox">
-
-		<h1>4write</h1>
-
-		<%= link_to "Identifícate", new_user_session_path, :class => "button" %>
-		<%= link_to "Regístrate", new_user_registration_path, :class => "button" %>
-	</div>
-	
-	<% end %>
-
 </section>
+</body>

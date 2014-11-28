@@ -1,4 +1,41 @@
-<h1>Create a new story</h1>
+<body class="bgstory">
+
+<nav class="nav">
+	<ul>
+		<li class="elemnav1">
+			<h2>Snippets.</h2>
+		</li>
+		<% if user_signed_in? %>
+
+		<li class="elemnav2 buttonsession">
+			<%= link_to "About Snippets", about_path %>
+			<%= link_to "#{current_user.name}'s pad", user_path(current_user.id) %>
+			<%= link_to "Sign out", destroy_user_session_path, class: 'salir', method: :delete %>
+		</li>
+		
+		<% else %>
+		
+		<li class="elemnav2 buttonsession">
+			<%= link_to "About Snippets", about_path %>
+			<%= link_to "Sign in", new_user_session_path, :class => "button" %>
+			<%= link_to "Sign up", new_user_registration_path, :class => "button" %>
+		</li>
+		
+		<% end %>
+
+	
+	</ul>	
+
+</nav>
+
+<section>
+
+<div class="newstory">
+	<h2>Your story</h2>
+</div>
+
+
+<div class="formstory">
 
 <% if flash[:error] %>
 	<%= flash[:error] %>
@@ -8,9 +45,9 @@
 	<%= render partial: 'form', locals: {form: f, is_root: true } %>
 <% end %>
 
-<% if user_signed_in? %>
-<%= link_to 'Back to your Area', user_path(current_user.id) %>
-<% else %>
-<%= link_to 'Sign In', new_user_session_path %>
-<% end %>
+</div>
+</section>
+</body>
+
+
 

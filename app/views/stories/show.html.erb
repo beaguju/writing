@@ -1,6 +1,40 @@
-<h1><%= @story.title %></h1>
+<body class="bgstory">
 
-<div class="field">
+<nav class="nav">
+	<ul>
+		<li class="elemnav1">
+			<h2>Snippets.</h2>
+		</li>
+		<% if user_signed_in? %>
+
+		<li class="elemnav2 buttonsession">
+			<%= link_to "About Snippets", about_path %>
+			<%= link_to "#{current_user.name}'s pad", user_path(current_user.id) %>
+			<%= link_to "Sign out", destroy_user_session_path, class: 'salir', method: :delete %>
+		</li>
+		
+		<% else %>
+		
+		<li class="elemnav2 buttonsession">
+			<%= link_to "About Snippets", about_path %>
+			<%= link_to "Sign in", new_user_session_path, :class => "button" %>
+			<%= link_to "Sign up", new_user_registration_path, :class => "button" %>
+		</li>
+		
+		<% end %>
+
+	
+	</ul>	
+
+</nav>
+
+<section>
+
+<div class="newstory">
+	<h2>"<%= @story.title %>"</h2>
+</div>
+	
+<div class="storyboxshow" id="contenedor">
 	<ul>
 		<li>
 			<% @story.parents.each do |story| %>
@@ -13,13 +47,20 @@
 			<%= @story.text %>
 		</li>
 	</ul>
+
+	<div class="buttonstory" onclick="return show()">
+	<a href="">Continuar historia</a>
+	</div>
+
+	<div class="newstory">
+		<%= link_to "Edit", edit_story_path, class: "buttonsession" %> |
+		<%= link_to "Stories", stories_path, class: "buttonsession" %>
+	</div>
 </div>
 
-<div class="button">
-	Continuar historia
-</div>
 
-<div class="hidden">
+
+<div class="formstoryadd" id="addition" style="display:none;">
 	<%= form_for @story.children.build, url: add_continuation_story_path(@story) do |f| %>
 		<%= f.hidden_field :parent_id %>
 		<%= render partial: 'form', locals: { form: f, is_root: false } %>
@@ -29,3 +70,5 @@
   <%= link_to "Edit story", edit_story_path(@story) %>
 <% end %>
 
+
+</body>

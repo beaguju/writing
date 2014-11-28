@@ -2,3 +2,118 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+
+.bgusers h2 {
+	font-family: "Special Elite";
+	font-size: 28pt;
+	color: #adadad;
+}
+
+.bgusers  h2 {
+	font-family: "Special Elite";
+	font-size: 28pt;
+	color: #adadad;
+}
+
+.form {
+	width: 25%;
+	margin-left: 7%;
+	margin-top: 4%;
+	margin-bottom: 10%;
+	padding: 2% 2% 2% 3%;
+	background-color: white;
+	opacity: 0.6;
+	font-family: "Comfortaa" cursive;
+	font-size: 15pt;
+	line-height: 150%;
+}
+
+.form a {
+	font-family: 'Comfortaa';
+	font-size: 15pt;
+	text-decoration: none;
+	color: grey;
+}
+
+.form a:visited {
+	color: #fcb787;
+}
+
+textarea, input {
+	font-family: 'Comfortaa';
+}
+
+input[type=submit] {
+	height: 40px;
+	width: 100px;
+	margin: 5px;
+	font-size: 14pt;
+	background-color: #bdbdbc;
+	border: 1px solid grey;
+}
+
+input[type=submit]:hover {
+	background-color: #fcb787;
+	opacity: 0.7;
+	font-size: 16pt;
+}
+
+input:focus { 
+    outline: none;
+    border: 2px solid #fcb787;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+textarea:focus {
+	outline: none;
+    border: 2px solid #fcb787;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.claseinut {
+	height: 40px;
+	width: 270px;
+	font-size: 14pt;
+}
+
+.characters 	{
+	font-size: 10pt;
+	margin: 0;
+}
+
+.bgusers {
+	background: url("typewriter_mountain.jpg") no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+.story input[type=submit]{
+	margin: 20px;
+	height: 50px;
+	width: 150px;
+	font-family: 'Comfortaa';
+	font-size: 15pt;
+	text-decoration: none;
+	color: grey;
+	padding: 10px;
+}
+
+.story input[type=submit]:hover {
+	background-color: #fcb787;
+	opacity: 0.8;
+	font-size: 16pt;
+	color: white;
+	font-weight: bold;
+}
+
+.storylink {
+	font-family: 'Comfortaa';
+	font-weight: bold;
+	font-size: 16pt;
+	color: white;
+	padding: 10px;
+}
+
+.myarea {
+	margin: 100px;
+}
+
